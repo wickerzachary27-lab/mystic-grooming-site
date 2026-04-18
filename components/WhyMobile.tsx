@@ -27,8 +27,8 @@ export default function WhyMobile() {
           <div className="lg:col-span-2">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-[0_25px_60px_rgba(122,158,126,0.25)] ring-4 ring-cream">
               <Image
-                src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=80"
-                alt="Happy dog being held"
+                src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=800&q=80"
+                alt="Happy fluffy dog"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
                 className="object-cover"
