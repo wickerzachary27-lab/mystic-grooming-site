@@ -7,20 +7,18 @@ export default function Hero() {
       id="top"
       className="relative flex min-h-screen items-center overflow-hidden bg-cream pt-24"
     >
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=2000&q=80"
-          alt="Happy dog being groomed"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-cream/90 via-cream/70 to-cream/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-cream via-transparent to-transparent" />
-      </div>
+      <Image
+        src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=2400&q=80"
+        alt="Happy fluffy dog being groomed"
+        fill
+        priority
+        sizes="100vw"
+        className="absolute inset-0 object-cover object-center"
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-cream/80 to-cream/40" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-cream to-transparent" />
 
-      <div className="mx-auto grid w-full max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:px-10">
+      <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:px-10">
         <div className="max-w-2xl">
           <p className="mb-5 text-xs font-bold uppercase tracking-[0.3em] text-rose-dark">
             Eugene, Oregon
