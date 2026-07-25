@@ -56,7 +56,7 @@ export default function ContactForm() {
           <Check size={28} strokeWidth={3} />
         </div>
         <h3 className="font-display text-2xl text-sage-dark sm:text-3xl">
-          Thanks — your email is ready to send!
+          Almost there — press send.
         </h3>
         <p className="mt-3 text-base text-ink/70">
           Your email client should have opened with the details filled in.
