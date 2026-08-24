@@ -8,7 +8,7 @@ export default function Hero() {
       className="relative flex min-h-screen items-center overflow-hidden bg-cream pt-24"
     >
       <Image
-        src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=2400&q=80"
+        src="/images/hero-golden-retriever.jpg"
         alt="Happy smiling golden retriever"
         fill
         priority
